@@ -1,0 +1,87 @@
+
+/* 
+   CSS styles for Number Guess Game
+   Programmer: Alex Waters
+*/
+
+body{
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 67.5%;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+h1,
+p,
+input {
+    font-size: 1.6rem;
+}
+
+/* 
+   Users input box
+*/
+
+#inputField {
+    width:20%;
+    margin-right: 5%;
+}
+
+button {
+    box-shadow: 5px 5px 5px gray, 3px 3px 3px darkgray, 
+                1px 1px 1px black;
+    margin:0 auto;
+    padding:2%;
+    width:70%;
+}
+
+/*
+   Set users input to center in box when used
+   Set border when focused
+*/
+
+#inputField:focus,
+button:focus {
+    border:1px solid blue;
+    text-align: center;
+    text-shadow: 1px 1px 1px black, 2px 2px 2px darkgray, 
+                 3px 3px 3px gray;
+}
+
+#result {
+    color:blue;
+    font-size:0.9rem;
+    margin:5%;
+}
+
+h1:hover,
+p:hover,
+button:hover {
+    color:darkblue;
+}
+
+/*
+   My Social Media Accounts
+   Using float to line list horizontally
+*/
+
+#socialMedia {
+    margin:5%;
+    padding:0;
+}
+
+#socialMedia ul{
+    list-style-type: none;
+    margin:0 auto;
+    width:160px;
+}
+
+#socialMedia ul li{
+    float:left;
+    width:50px;
+}
+
+#socialMedia a:visited {
+    color:rgb(64, 141, 137);
+}
